@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-image: url("https://lh3.googleusercontent.com/-kJTsKhoTt6s/YV9cLqgk-aI/AAAAAAAAAJs/CPc5enPK1xoMWLXXnLBoAxRKjW5Vx-3igCNcBGAsYHQ/w1567-h1046/Pics.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 85vh;
+    width: 100vw;
+}
+
+body:before {
+    display: inline-block;
+    content: "";
+    width: 100em;
+    min-height: 85em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #52c4df, #bd81e0);
+    opacity: 0.6;
+    z-index: -1;
+}
+
+div {
+    display: flex;
+    position: absolute;
+}
+
+.cuerpo {
+    position: relative;
+    height: 80em;
+    width: 100em;
+}
+
+.panelLeft {
+    text-align: center;
+    width: 10em;
+    height: 79em;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-family: sans-serif;
+    line-height: 1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: blue solid 1px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.panelLeft button {
+    margin-top: 5px;
+    font-size: 15px;
+    text-decoration: wavy;
+    border-radius: 5px;
+    border: solid 2px blue;
+    margin-left: 5px;
+}
+
+.panelLeft button:hover {
+    background: #acacac;
+    font-style: inherit;
+}
+
+.titlePag {
+    width: 85em;
+    height: 5em;
+    top: 1em;
+    right: 2em;
+    bottom: 80em;
+    left: 12em;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-family: sans-serif;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: blue solid 1px;
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.titlePag h1 {
+    margin: auto;
+}
+
+.container {
+    width: 87em;
+    height: 72em;
+    top: 7em;
+    right: 1em;
+    bottom: 22em;
+    left: 11em;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-family: sans-serif;
+    line-height: 1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: blue solid 1px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.foo {
+    width: 100em;
+    background-color: black;
+    color: white;
+}
+
+#photoPer {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    padding: auto;
+}
+
+#logoUnix {
+    position: inherit;
+    width: 150px;
+    height: 170px;
+    bottom: 0;
+    right: 0;
+}
+
+.secondConteiner {
+    position: inherit;
+    background-color: white;
+    border: solid blue 2px;
+    margin: 20px;
+    width: 82em;
+    height: 65em;
+}
+
+select {
+    border: solid blue 2px;
+}
+
+#areaSelect {
+    margin: 20px;
+    font-size: 20px;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.conteinerLeft {
+    display: inline-block;
+    position: relative;
+    border: red 2px solid;
+    width: 50%;
+}
+
+.conteinerLeft h2 {
+    width: 250px;
+    position: inherit;
+    display: block;
+    margin: 20px 170px;
+}
+
+.conteinerRight {
+    display: inline-block;
+    position: relative;
+    border: solid 2px green;
+    width: 50%;
+}
+
+#peopleSelect {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    width: 50%;
+    display: inline-block;
+}
+
+#resultTable {
+    border: solid 2px blue;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    position: absolute;
+    font-size: 24px;
+    display: inline-block;
+}
+
+th {
+    background-color: #34495E;
+    color: white;
+}
+
+form {
+    display: block;
+    border: solid black 2px;
+    height: 250px;
+    width: 100%;
+}

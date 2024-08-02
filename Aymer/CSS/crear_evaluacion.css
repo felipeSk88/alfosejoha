@@ -1,0 +1,118 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #D0CECE;
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat, repeat-y;
+}
+
+#logo-header {
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+}
+
+#foto_perfil {
+    width: 120px;
+    height: 120px;
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+}
+
+#logo-header:hover {
+    color: #0b76a6;
+}
+
+#logo-header .site-name {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+#logo-header .site-desc {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #999;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: #0b76a6;
+}
+
+#notificacion {
+    width: 60px;
+    height: 40px;
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+}
+
+#cerrarSe {
+    width: 60px;
+    height: 40px;
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+}
+
+div#presentacion {
+    margin: auto;
+    margin-top: 150px;
+    width: 900px;
+    height: 800px;
+}
+
+#botonEN {
+    border: 2px solid black;
+    float: right;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+select {
+    border: 2px solid blue;
+}
+
+input {
+    border: 2px solid blue;
+}
+.imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:100px;
+
+}
+.ubi1 {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+ 
+}
